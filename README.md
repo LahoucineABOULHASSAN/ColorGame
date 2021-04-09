@@ -1,8 +1,8 @@
 # ColorGame
 
 This project is a 100% front-end web app build using the HTML5, Bootstrap 4 and JS.
-It's my build version an exercice from a bootcamp web developer udemy course.
-game of gessing the right rgb(.,.,.)color from 6 choices for hard level and 3 choices for easy level.
+It's my build version of an exercice from a bootcamp web developer udemy course.
+Game of gessing the right rgb(.,.,.) color from 6 choices for hard level and 3 choices for easy level.
 
 The Technologies used on this app are the following:
 -HTML5
