@@ -28,8 +28,8 @@ function resetFunction() {
     } else boxs[i].style.display = "none";
   }
   messageDisplay.textContent = "";
-  resetButton.textContent = "New Colors";
-  h1Display.style.backgroundColor = "steelblue";
+  resetButton.textContent = "New Colors?";
+  h1Display.style.backgroundColor = "#b44648d9";
 }
 // function add Listeners
 function addListeners() {
@@ -66,19 +66,20 @@ function generateColor() {
 function isCorrect() {
   let clickedColor = this.style.backgroundColor;
   if (clickedColor === colorPicked) {
-    messageDisplay.textContent = "Correct!!";
+    messageDisplay.textContent = "Correct!! :)";
     h1Display.style.backgroundColor = colorPicked;
     toColorPicked(colorPicked);
     resetButton.textContent = "Play Again?";
   } else {
-    messageDisplay.textContent = "Try Again.";
-    this.style.backgroundColor = "#232323";
+    messageDisplay.textContent = "Try Again! :(";
+    this.style.opacity = 0;
   }
 }
 // make all boxs color match to the picked one
 function toColorPicked(color) {
   for (let i = 0; i < boxs.length; i++) {
     boxs[i].style.backgroundColor = color;
+    boxs[i].style.opacity = 1;
   }
 }
 // selected functions who changes the color of the button selected
