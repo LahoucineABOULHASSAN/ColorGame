@@ -13,7 +13,7 @@ The Technologies used on this app are the following:
 
 # links
 
-[my portfolio](https://vueportfolioapp.netlify.app).
+[my portfolio](https://aboulhassan.netlify.app/).
 [my github](https://github.com/LahoucineABOULHASSAN).
 [bootstrap cdn](https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css).
 
@@ -21,7 +21,7 @@ The Technologies used on this app are the following:
 
 MIT License
 
-Copyright (c) [2021] [lahoucine aboulhassan](https://vueportfolioapp.netlify.app).
+Copyright (c) [2021] [lahoucine aboulhassan](https://aboulhassan.netlify.app/).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
